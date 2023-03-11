@@ -22,7 +22,7 @@
             min-height: 100vh;
         }
         hr{
-            width: 75%;
+            width: 80%;
             height: 1px;
             margin: auto;
             border: none;
@@ -30,19 +30,33 @@
         }
         header,nav{
             width: 100%;
-            height: 150px;
+            height: 80px;
             background: transparent;
             opacity: 1.0;
             /* border: 1px solid black; */
-            border: 1px solid black;
         }
         #title{
-            font-size: 50px;
+            font-size: 30px;
             font-family: 黑体;
-        }
-        nav p{
             text-align: center;
-            font-size: 75px;
+            height: 80px;
+            line-height: 80px;
+        }
+        #nav1{
+            font-size: 20px;
+            font-family: 黑体;
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+        }
+        #location{
+            font-size: 15px;
+            font-family: 宋体;
+            text-align: left;
+            width: 80%;
+            height: 40px;
+            line-height: 40px;
+            margin: auto;
         }
         section{
             width: 100%;
@@ -50,32 +64,44 @@
             background: transparent;
             opacity: 1.0;
             /* border: 1px solid black; */
-            border: 1px solid black;
         }
         #sectionnav{
+            font-size: 15px;
+            font-family: 宋体;
             text-align: center;
         }
         #main{
-            font-size: 20px;
+            width: 80%;
+            font-size: 15px;
             font-family: 宋体;
+            margin: auto;
+        }
+        #imgts{
+            width: 30%;
+            margin: auto;
+        }
+        #imgts p{
+            text-align: center;
+        }
+        #imgts img{
+            width: 100%;
         }
         footer{
             position: absolute;
             bottom: 0;
             width: 100%;
-            height: 100px;
+            height: 150px;
             background: transparent;
             opacity: 1.0;
             /* border: 1px solid black; */
-            border: 1px solid black;
         }
         footer div{
-            height: 100px;
-            line-height: 100px;
+            height: 50px;
+            line-height: 50px;
         }
         footer p{
             text-align: center;
-            font-size: 25px;
+            font-size: 15px;
         }
         footer p span{
             font-family:Arial;
@@ -121,7 +147,7 @@
             唐代（公元618-907年）是我国古典诗歌发展的全盛时期。
             唐诗是我国优秀的文学遗产之一，也是全世界文学宝库中的一颗灿烂的明珠。
             尽管离现在已有一千多年了，但许多诗篇还是为我们所广为流传。
-        </p><br/>
+        </p>
         <p id="main">
             唐代的诗人特别多。李白、杜甫、白居易固然是世界闻名的伟大诗人，
             除他们之外，还有其他无数诗人，像漫天的星斗一样。
@@ -136,9 +162,11 @@
             在创作方法上，既有现实主义的流派，也有浪漫主义的流派，
             而许多伟大的作品，则又是这两种创作方法相结合的典范，
             形成了我国古典诗歌的优秀传统。
-        </p><br/>
+        </p>
         <p id="main">......</p>
-        <p id="imgtangshi"><img src="images/tangshi.jpg"></p>
+        <div id="imgts">
+            <p><img src="images/tangshi.jpg"></p>
+        </div>
     </section>
     <footer>
         <hr/>
