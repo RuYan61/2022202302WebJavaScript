@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="余浩琰">
+    <title>动画栏目</title>
+    <style type="text/css">
+        @charset "UTF-8";
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0 auto;
+            background: rgb(255, 255, 227);
+            position: relative;
+            min-height: 100vh;
+        }
+        a{
+            text-decoration: none;
+        }
+        header{
+            width: 100%;
+            height: 300px;
+            background: transparent;
+            opacity: 1.0;
+            /* border: 1px solid black; */
+        }
+        #animationbanner{
+            width: 60%;
+            margin: auto;
+        }
+        #animationbanner p{
+            text-align: center;
+        }
+        #animationbanner img{
+            width: 100%;
+        }
+        nav{
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            margin: auto;
+            background: rgb(181, 215, 227);
+            opacity: 1.0;
+            /* border: 1px solid black; */
+        }
+        nav p{
+            text-align: center;
+            font-size: 30px;
+        }
+        #location{
+            width: 100%;
+            height: 50px;
+            margin: auto;
+            background: transparent;
+            opacity: 1.0;
+            position: relative;
+            /* border: 1px solid black; */
+        }
+        #location div{
+            bottom: 0;
+            position: absolute;
+        }
+        section{
+            width: 100%;
+            background: transparent;
+            opacity: 1.0;
+            margin: 0 auto;
+            /* border: 1px solid black; */
+        }
+        #overcoat{
+            width: 940px;
+            margin: 0 auto;
+        }
+        #main .main_left,#main .main_center,#main .main_right,#main{
+            margin: 5px 4px;
+            height: 440px;
+            position: relative;
+        }
+        #main .main_left{
+            width: 300px;
+            float: left;
+        }
+        #main img{
+            height: 440px;
+        }
+        #main .main_center{
+            width: 300px;
+            float: left;
+        }
+        #main .main_right{
+            margin: 6px 8px;
+            width: 300px;
+            float: right;
+        }
+        footer{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            background: transparent;
+            opacity: 1.0;
+            /* border: 1px solid black; */
+        }
+        hr{
+            width: 100%;
+            height: 1px;
+            margin: auto;
+            border: none;
+            border-top: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="animationbanner">
+            <p><img src="images/animation_banner.jpg"></p>
+        </div>
+    </header>
+    <nav>
+        <p>
+            <a href="#">剧情</a>&nbsp;
+            <a href="动画栏目首页.html" style="color: black;">动画</a>&nbsp;
+            <a href="科幻栏目首页.html">科幻</a>&nbsp;
+            <a href="#">动作</a>&nbsp;
+            <a href="#">悬疑</a>
+        </p>
+    </nav>
+    <div id="location">
+        <div>
+            <p>
+                &nbsp;<a href="电影欣赏首页.html">首页</a>
+                &nbsp;&nbsp;&gt;&nbsp;&nbsp;
+                动画
+            </p>
+        </div> 
+    </div>
+    <section>
+        <hr/>
+        <div id="overcoat">
+            <div id="main">
+                <div class="main_left">
+                    <a href="“哪吒”首页.html">
+                        <img src="images/nezha.jpg">
+                    </a>
+                </div>
+                <div class="main_center">
+                    <img src="images/spiritedaway.jpg">
+                </div>
+                <div class="main_right">
+                    <img src="images/zootopia.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <hr/>
+        <p>YuHaoyan&nbsp;2023</p>
+    </footer>
+</body>
+</html>
